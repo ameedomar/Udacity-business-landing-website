@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 header {
-  /* background-color: #2596be; */
   background-color: #8b5c43;
-  /* background-color: #b89f81; */
-  /* background-color: #b39d85; */
   display: flex;
   height: 60px;
 }
@@ -47,10 +44,10 @@ a:active {
   text-decoration: none;
 }
 @media (max-width: 1200px) {
-    .nav-list {
-      width: 30%;
-    }
+  .nav-list {
+    width: 30%;
   }
+}
 
 @media (max-width: 970px) {
   .nav-list {
