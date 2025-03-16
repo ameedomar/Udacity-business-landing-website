@@ -1,10 +1,17 @@
 .hero-panel {
-  background-image: url("./imgs/heropanel.jpg");
+  background-image: url("../imgs/heropanel.jpg");
   width: 100%;
   height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+figcaption {
+  background-color: #ebc98e;
+  color: #8b5c43;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
 .services-panel {
   display: flex;
@@ -88,7 +95,6 @@ h4 {
   background-color: #8b5c43;
 }
 
-
 @media only screen and (max-width: 999px) {
   .about-us-top {
     display: flex;
@@ -101,55 +107,52 @@ h4 {
   .about-us-pharaghraphs1 {
     width: 38%;
     margin: 0 10px;
-  } 
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .about-us-top {
-      margin: 20px 0;
-    }
-    .about-us-img-panel {
-
-      width: 62%;
-    }
-    .about-us-pharaghraphs1 {
-      width: 38%;
-      margin: 0 15px;
-    }
-    
+  .about-us-top {
+    margin: 20px 0;
   }
-  @media only screen and (max-width: 681px) {
-    .services-panel {
-      justify-content: center;
-      align-items: center;
-    }
-    .about-us {
-      padding: 10px 35px;
-    }
-    .about-us-top {
-      display: flex;
-      flex-direction: column;
-      margin: 20px 0;
-      align-items: center;
-    }
-    .about-us-img-panel {
-      display: flex;
-      width: 90%;
-    }
-    .about-us-pharaghraphs1 {
-      width: 90%;
-      margin: 0 1px;
-    }
-    .about-us-bottom{
-        display: flex;
-        justify-content: center;
-    }
-    .about-us-pharaghraphs2 {
-        width: 90%;
-        margin: 0 1px;
-      }
-      .about-us-title{
-        margin-left: 33px;
-      }
-      
+  .about-us-img-panel {
+    width: 62%;
   }
+  .about-us-pharaghraphs1 {
+    width: 38%;
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 681px) {
+  .services-panel {
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us {
+    padding: 10px 35px;
+  }
+  .about-us-top {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+  }
+  .about-us-img-panel {
+    display: flex;
+    width: 90%;
+  }
+  .about-us-pharaghraphs1 {
+    width: 90%;
+    margin: 0 1px;
+  }
+  .about-us-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .about-us-pharaghraphs2 {
+    width: 90%;
+    margin: 0 1px;
+  }
+  .about-us-title {
+    margin-left: 33px;
+  }
+}
